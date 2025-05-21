@@ -5,12 +5,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBw73KvS5MXRAQ4nGxCkyYr6cnp_5Ulaw4",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "therapy-c5dd0.firebaseapp.com",
   projectId: "therapy-c5dd0",
   storageBucket: "therapy-c5dd0.firebasestorage.app",
-  messagingSenderId: "38714534926",
-  appId: "1:38714534926:web:b210175cec8dbc9f71605f"
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
