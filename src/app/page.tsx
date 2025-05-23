@@ -14,7 +14,7 @@ export default function Home() {
 			</nav>
 			<section className='h-[90vh] text-center w-full py-8 lg:px-[50px] px-4 flex flex-col items-center justify-center'>
 				<h1 className='text-5xl lg:text-7xl font-extrabold text-blue-500 mb-5'>
-					3-in-1 Gaming Platform
+					2-in-1 Gaming Platform
 				</h1>
 				<p className='opacity-50 text-lg lg:text-2xl '>
 					Play games, join tournaments, and network with other gamers.
